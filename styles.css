@@ -662,6 +662,15 @@ img {
   transition: transform 0.55s ease;
 }
 
+.project-image-contain {
+  background: #06071b;
+}
+
+.project-image-contain img {
+  object-fit: contain;
+  object-position: center;
+}
+
 .project-image:hover img {
   transform: scale(1.025);
 }
